@@ -1,0 +1,14 @@
+
+.header-container{
+    background-color: rgb(113, 222, 255);
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 10px 10px 0px rgba(0,0,0,0.3);
+}
+
+.header-title{
+    font-size: 27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    color: rgb(53, 29, 29);
+}
