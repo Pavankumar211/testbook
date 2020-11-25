@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const LoginPage =() => {
 
@@ -21,6 +22,7 @@ const LoginPage =() => {
                                 <input type="submit" className="login-button" value="Login" />
                             </div>
                             </form>
+                            <div className="signup-link">Not a member? <NavLink to="/signup" className="redirect-link">Signup here...</NavLink> </div>
                         </div>
                     </div>
                 </div>

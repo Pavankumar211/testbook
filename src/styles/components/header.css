@@ -4,11 +4,31 @@
     width: 100%;
     padding: 20px;
     box-shadow: 0 10px 10px 0px rgba(0,0,0,0.3);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header-title{
     font-size: 27px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
     font-weight: 800;
-    color: rgb(53, 29, 29);
+    color: rgb(58, 26, 26);
+    text-shadow: 0 0 3px white;}
+
+.login-button-link {
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 2rem;
+    padding: 1rem;
+    top: 0;
+    right: 0.5rem;
+    text-decoration: none;
+    background-color: rgb(70, 70, 214);
+    border-radius: 1rem;
+    color: whitesmoke;
 }
